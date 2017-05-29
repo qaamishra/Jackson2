@@ -1,0 +1,10 @@
+{
+  "name": "qaamishra",
+  "age": 33,
+  "classroom": "stdV",
+  "marks": 72.3,
+  "subjects": [
+    "maths",
+    "science"
+  ]
+}
