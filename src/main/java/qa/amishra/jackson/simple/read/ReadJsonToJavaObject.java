@@ -1,9 +1,9 @@
-package qa.amishra.jackson.read;
+package qa.amishra.jackson.simple.read;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import qa.amishra.jackson.read.JsonPojoClasses.School;
+import qa.amishra.jackson.JsonPojoClasses.School;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,11 +14,11 @@ import java.io.IOException;
 public class ReadJsonToJavaObject {
 
     public static void main(String[] args) {
-        ReadJsonToJavaObject obj = new ReadJsonToJavaObject();
-        obj.run();
+        ReadJsonToJavaObject readJsonToJavaObject = new ReadJsonToJavaObject();
+        readJsonToJavaObject.process();
     }
 
-    private void run() {
+    private void process() {
         ObjectMapper mapper = new ObjectMapper();
 
         try {
