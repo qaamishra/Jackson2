@@ -12,3 +12,7 @@ Map<String, Object>
 Later on while fetching you can always typecast the object to required type
 e.g.
 ArrayList<String> list = (ArrayList<String>) map.get("subjects");
+
+For Json array viewing
+http://jsonviewer.stack.hu/
+http://www.jsoneditoronline.org/
