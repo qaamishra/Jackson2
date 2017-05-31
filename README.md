@@ -16,3 +16,6 @@ ArrayList<String> list = (ArrayList<String>) map.get("subjects");
 For Json array viewing
 http://jsonviewer.stack.hu/
 http://www.jsoneditoronline.org/
+
+More :
+http://www.baeldung.com/jackson
