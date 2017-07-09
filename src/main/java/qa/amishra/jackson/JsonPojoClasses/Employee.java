@@ -35,7 +35,8 @@ public class Employee
 
     public Contact[] getContact ()
     {
-        return contact;
+
+        return this.contact;
     }
 
     public void setContact (Contact[] contact)
@@ -45,7 +46,7 @@ public class Employee
 
     public Electronics[] getElectronics ()
     {
-        return electronics;
+        return this.electronics;
     }
 
     public void setElectronics (Electronics[] electronics)
