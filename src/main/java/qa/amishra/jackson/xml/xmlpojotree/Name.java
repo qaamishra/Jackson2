@@ -1,12 +1,20 @@
-package qa.amishra.jackson.JsonPojoClasses;
+package qa.amishra.jackson.xml.xmlpojotree;
 
-/**
- * Created by Ashutosh on 30-05-2017.
- */
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+
 public class Name
 {
-    private String last;
+    public Name() {
+    }
 
+    public Name(String last, String first) {
+        this.last = last;
+        this.first = first;
+    }
+
+    @JacksonXmlProperty(localName = "last")
+    private String last;
+    @JacksonXmlProperty(localName = "first")
     private String first;
 
     public String getLast ()

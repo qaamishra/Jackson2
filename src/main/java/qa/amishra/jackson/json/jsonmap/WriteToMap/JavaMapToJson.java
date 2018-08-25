@@ -1,4 +1,4 @@
-package qa.amishra.jackson.jsonmap.WriteToMap;
+package qa.amishra.jackson.json.jsonmap.WriteToMap;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;

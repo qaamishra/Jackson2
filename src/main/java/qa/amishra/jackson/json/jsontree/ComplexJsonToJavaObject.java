@@ -1,11 +1,8 @@
-package qa.amishra.jackson.jsontree;
+package qa.amishra.jackson.json.jsontree;
 
-import com.fasterxml.jackson.core.JsonGenerationException;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JsonMappingException;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
-import qa.amishra.jackson.JsonPojoClasses.Contact;
-import qa.amishra.jackson.JsonPojoClasses.Employee;
+import qa.amishra.jackson.json.jsonpojoclasses.Employee;
 
 import java.io.File;
 import java.io.IOException;

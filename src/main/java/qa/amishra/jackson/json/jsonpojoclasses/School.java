@@ -1,4 +1,4 @@
-package qa.amishra.jackson.JsonPojoClasses;
+package qa.amishra.jackson.json.jsonpojoclasses;
 
 import java.math.BigDecimal;
 import java.util.List;

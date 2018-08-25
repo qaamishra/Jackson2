@@ -1,4 +1,4 @@
-package qa.amishra.jackson.JsonPojoClasses;
+package qa.amishra.jackson.json.jsonpojoclasses;
 
 /**
  * Created by Ashutosh on 30-05-2017.

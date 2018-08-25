@@ -1,4 +1,4 @@
-package qa.amishra.jackson.jsontree;
+package qa.amishra.jackson.json.jsontree;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.type.TypeReference;

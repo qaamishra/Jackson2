@@ -1,9 +1,10 @@
-package qa.amishra.jackson.simple.read;
+package qa.amishra.jackson.json.simple.read;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import qa.amishra.jackson.JsonPojoClasses.School;
+
+import qa.amishra.jackson.json.jsonpojoclasses.School;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,7 +24,7 @@ public class ReadJsonToJavaObject {
 
         try {
 
-            //Read Json from file to Object
+            //ReadTree Json from file to Object
             School school = mapper.readValue(new File("ReadJsonToJavaObject.json"), School.class);
             System.out.println(school.getName());
             System.out.println(school.getAge());

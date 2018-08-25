@@ -1,10 +1,10 @@
-package qa.amishra.jackson.jsonmap.ReadToMap;
+package qa.amishra.jackson.json.jsonmap.ReadToMap;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import qa.amishra.jackson.JsonPojoClasses.School;
+
 
 import java.io.File;
 import java.io.IOException;

@@ -19,3 +19,8 @@ http://www.jsoneditoronline.org/
 
 More :
 http://www.baeldung.com/jackson
+
+XML tips <br>
+1.Declare the start of XML of root element with annotation @JacksonXmlRootElement(localName = "root")<br>
+2.All the nodes which are array declare it with annotation  @JacksonXmlElementWrapper(localName = "elements", useWrapping = false) <br>
+3.Declare all the nodes with the annotation @JacksonXmlProperty(localName = "element")<br> 

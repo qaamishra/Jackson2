@@ -1,10 +1,11 @@
-package qa.amishra.jackson.simple.write;
+package qa.amishra.jackson.json.simple.write;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import qa.amishra.jackson.JsonPojoClasses.School;
+import qa.amishra.jackson.json.jsonpojoclasses.School;
+
 
 import java.io.File;
 import java.io.IOException;

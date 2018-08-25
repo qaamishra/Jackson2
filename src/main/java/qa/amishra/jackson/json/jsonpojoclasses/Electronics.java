@@ -1,4 +1,7 @@
-package qa.amishra.jackson.JsonPojoClasses;
+package qa.amishra.jackson.json.jsonpojoclasses;
+
+import qa.amishra.jackson.json.jsonpojoclasses.*;
+
 
 /**
  * Created by Ashutosh on 30-05-2017.
@@ -6,6 +9,8 @@ package qa.amishra.jackson.JsonPojoClasses;
 public class Electronics
 {
     private Computer[] computer;
+
+
 
     private Mobile[] mobile;
 
