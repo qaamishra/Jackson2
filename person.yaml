@@ -1,0 +1,12 @@
+# Details of a Person
+---
+name: Ashutosh
+age: 30
+address:
+  line1: My Address Line 1
+  line2: Address line 2
+  city: Hyderabad
+  zip: 510001
+roles:
+- User
+- Editor
